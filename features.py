@@ -125,7 +125,7 @@ def Tracklocation():
 
 
 def weather(city):
-    api_key = "f49fd517cc104129422627bb2fc33a9a"  # Replace with your own OpenWeatherMap API key
+    api_key = "use your api key"  # Replace with your own OpenWeatherMap API key
     base_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     response = requests.get(base_url)
     data = response.json()
